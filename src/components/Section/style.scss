@@ -1,0 +1,16 @@
+.section {
+  height: 300px;
+  width: 400px;
+  font-size: 1rem;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+
+  &_title {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

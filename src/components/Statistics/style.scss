@@ -1,0 +1,20 @@
+.statistic {
+  display: flex;
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+
+  .list {
+    margin: 0;
+    &_item {
+      list-style: none;
+
+      &_value {
+        font-weight: 700;
+        margin-left: 4px;
+      }
+    }
+  }
+}
